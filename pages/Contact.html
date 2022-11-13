@@ -5,24 +5,53 @@
     <link rel="stylesheet" href="../style.css">
     <title>Contact pagina</title>
 </head>
-<header>
-    <div class="logo">
-        <img src="../images/Logo.JPG" alt="">
-    </div>
-    <nav>
-        <ul class="navbar">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="CV.html">CV</a></li>
-            <li><a href="Ervaring.html">Ervaring</a></li>
-            <li><a href="Hobby.html">Hobby / interesse</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
 
 <body>
-    <h1>Contact</h1>
+    <header>
+        <div class="logo">
+            <img src="../images/Logo.JPG" alt="">
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="Ervaring.html">Ervaring</a></li>
+                <li><a href="Hobby.html">Hobby / interesse</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <div class="gmaps">
+            <div class="side">
+                <img src="../images/telephoneIconGood.png" />
+                <p>
+                    Telefoon
+                    +3291368297
+                </p>
+            </div>
+            <div class="gmaps-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.7010966946746!2d4.761374015819237!3d51.39017137961607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6a8f1c1eed139%3A0x989a57808c8fa321!2sLouis%20Domsstraat%2024%2C%202320%20Hoogstraten!5e0!3m2!1snl!2sbe!4v1668370140558!5m2!1snl!2sbe"
+                    width="50%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <h2 class="titleContactMe">Contacteer mij!</h2>
+        <form action="" class="form">
+            <label for="name">Naam:</label> <br>
+            <input type="text" id="name"> <br>
+            <label for="Email">E-mailadres:</label> <br>
+            <input type="text" id="Email"> <br>
+            <label for="Beschrijving">Beschrijving:</label> <br>
+            <textarea type="text" id="Beschrijving"></textarea> <br>
+            <input type="submit" value="Verstuur">
+        </form>
+        <footer class="foot">Copyright © 2022 CV-Portfolio Nathan D'hoore</footer>
+    </main>
 
 </body>
+
 
 </html>
