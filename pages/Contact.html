@@ -42,9 +42,9 @@
         <h1 class="text-center">Contact</h1>
     </header>
     <main>
-        <div class="card-group justify-content-between p-3">
+        <div class="card-group justify-content-between p-3 rounded">
             <div class="card mb-3 bg-dark" style="max-width: 540px;">
-                <div class="row g-0">
+                <div class="row g-0 rounded">
                     <div class="col-md-4">
                         <h5 class="card-title text-light">Locatie</h5>
                     </div>
@@ -111,31 +111,34 @@
             </div>
         </div>
         <h2 class="text-center">Contacteer mij!</h2>
-        <form class="align-items-center w-75">
-            <div class="mb-3">
-                <label for="naam" class="form-label">Naam</label>
-                <input type="text" class="form-control" id="naam">
-            </div>
-            <div class="mb-3">
-                <label for="voornaam" class="form-label">Voornaam</label>
-                <input type="text" class="form-control" id="voornaam">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email adres</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-            </div>
-            <select class="form-select" aria-label="skills">
-                <option selected>Skill</option>
-                <option value="1">C#</option>
-                <option value="2">Web development</option>
-                <option value="3">Copywriting</option>
-            </select>
-            <div class="mb-3 form-group">
-                <label for="vragen" class="form-label">Extra info</label>
-                <textarea type="text-area" class="form-control rounded-0" id="vragen"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+
+        <div class="container w-50 bg-dark rounded text-light">
+            <form class="p-4">
+                <div class="mb-3">
+                    <label for="naam" class="form-label">Naam</label>
+                    <input type="text" class="form-control" id="naam">
+                </div>
+                <div class="mb-3">
+                    <label for="voornaam" class="form-label">Voornaam</label>
+                    <input type="text" class="form-control" id="voornaam">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email adres</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                </div>
+                <select class="form-select" aria-label="skills">
+                    <option selected>Skill</option>
+                    <option value="1">C#</option>
+                    <option value="2">Web development</option>
+                    <option value="3">Copywriting</option>
+                </select>
+                <div class="mb-3 form-group">
+                    <label for="vragen" class="form-label">Extra info</label>
+                    <textarea type="text-area" class="form-control rounded" id="vragen"></textarea>
+                </div>
+                <button type="submit" class="btn btn-light text-center">Submit</button>
+            </form>
+        </div>
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
