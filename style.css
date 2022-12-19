@@ -1,46 +1,6 @@
 
-.foot{
-
-    text-align: center;
-    font-size: 0.75em;
-    bottom:0;
-    left:0;
-    right:0;
-    width: 100%;
-    min-height: 2vh;
-    position: absolute;
-    background-color: black;
-    color:white;
-    padding:25px;
-}
-main{
-   padding-top: 3em;
-   padding-bottom: 5em;
-   position: relative;
-   min-height: 95vh;
-}
-header{
-    min-height: 4vh;
-}
-html, body{
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-}
-.selfie{
-    display: inline-block;
-}
-.description{
-    display: inline-block;
-
-    margin-left: 2em;
-}
-.wrapper{
-    text-align: center;
-}
-.description img{
-    margin-left: 1em;
-    margin-top:auto;
-    width:2.5em;
+.footer{
+    margin-top: 50px;
 }
 .selfie img{
     width: 12em;
@@ -51,60 +11,11 @@ html, body{
     float:left;
     width: 5em;
 }
-.heading{
-    position:relative;
-    text-align: center;
-    width:100%;
-
-}
-
-.heading img{
-    width: 100%;
-    left:0;
-    right:0;
-    margin-top:3%;
-}
-.title{
-    color:white;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    
-}
-
-.button{
-    border: none;
-    background-color: crimson;
-    padding:0.5em;
-    border-radius: 10px;
-    border: 2px solid black;
-    margin-top: 2em;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    color:white;
-}
-.CV{
-    
-    justify-content: space-around;
-    border: 5px solid black;
-    border-radius: 25px;
-    width: 50%;
-    padding: 2em;
-}
 .titleCV{
     text-align: center;
 }
 
-.container{
-    display:flex;
-    justify-content: center;
-}
-.rightsideCV img{
-    justify-content: center;
-    text-align: center;
-}
+
 .gmaps{
     text-align: center;
     border: 1px solid blue;
@@ -124,9 +35,7 @@ html, body{
     float:left;
     padding: 1%;
 }
-.side{
-    display: block;
-}
+
 .form{
     margin-left: 20%;
 }
@@ -160,12 +69,4 @@ table {
   .con .imgdiv{
     float:left;
     width: 30%;
-  }
-  .textHobby{
-    float:right;
-    padding: 2%;
-    width: 50%;
-    border: 2px solid black;
-    border-radius: 25px;
-    margin-top: 1%;
   }
